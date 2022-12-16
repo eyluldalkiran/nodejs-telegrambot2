@@ -1,6 +1,6 @@
-# fly.toml file generated for twitter-second-bot on 2022-12-16T22:38:03+03:00
+# fly.toml file generated for twitter-secondie on 2022-12-16T23:52:13+03:00
 
-app = "twitter-second-bot"
+app = "twitter-secondie"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

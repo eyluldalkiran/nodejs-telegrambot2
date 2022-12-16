@@ -12,9 +12,11 @@ const loadJSON = (path) =>
 
 const users = loadJSON("./users.json");
 
+const port = process.env.PORT || "8080";
+
 const token = process.env.TELEGRAM_KEY;
 // Default chat id
-const chatId = -1001847605123;
+const chatId = -1001875292115;
 // Test chat id
 // const chatId = -1001847605123;
 
