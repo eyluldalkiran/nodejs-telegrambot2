@@ -1,12 +1,9 @@
-# fly.toml file generated for tweetforward on 2022-12-16T15:00:24+03:00
+# fly.toml file generated for twitter-second-bot on 2022-12-16T22:38:03+03:00
 
-app = "tweetforward"
+app = "twitter-second-bot"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
-
-[build]
-  image = "flyio/hellofly:latest"
 
 [env]
   PORT = "8080"
